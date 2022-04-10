@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="../img/logo1.png">
+    <title>Productos Deco Contacto</title>
+</head>
+<body>
+<!-- comienza el header-->
+    <header>
+<!--Logo -->
+        <div class="logo">
+            <img src="../Img/logo3.png" alt="logo" >
+        </div>
+<!-- Armado de Menu -->
+        <Nav class="menu">
+            <ul class="headMenuUl">
+                <li> 
+                    <a  class="aMenu" href="../index.html"> Home </a>
+                </li>
+                <li>
+                    <a class="aMenu" href="../pages/productos.html"> Produtos </a>
+                </li>
+                <li>
+                    <a class="aMenu" href="../pages/preguntasfrecuentes.html"> Preguntas Frecuentes </a>  
+                </li>
+                <li>
+                    <a class="aMenu" href="../pages/nosotros.html"> Nosotros </a>
+                </li>
+                <li>
+                    <a class="aMenu" href="../pages/contacto.html"> Contacto </a> 
+                </li>
+            </ul>
+        </Nav>
+<!-- Termina Armado de Menu -->
+    </header>
+<!-- termina el header-->
+<!-- empieza el main-->
+    <main  class="mainComun">
+        <div>
+            <h1 class="mainTitulo"> Contacto  </h1>
+        </div> 
+<!-- empieza la section-->
+        <section class="sContacto">
+<!-- comienza el formulario-->
+            <form action="" id="form">
+                    <legend><h2 class="legendH2">Contactanos!</h2></legend>
+                    <div  class="divFormulario">
+                        <label class="label" for="nombre"><h3 class="labelH3">Nombre Completo:</h3></label>
+                        <input class= "input" type="text" name="nombre" 
+                        placeholder="Ingrese su nombre">
+                    </div>
+                    <div  class="divFormulario">
+                        <label class="label" for="email"><h3 class="labelH3">E-mail: </h3> </label>
+                        <input class= "input" type="email" name="email"
+                        placeholder="Ingrese su E-mail">
+                    </div>
+                    <div  class="divFormulario">
+                        <label class="label" for="telefono"><h3 class="labelH3">Telefono (opcional): </h3> </label>
+                        <input class= "input" type="tel" name="telefono"  placeholder="11 1234 7568"
+                        pattern="[0-9]{2}[0-9]{4}[0-9]{4}"  title="Por favor introduzca un número valido código de area 11 y número" required>
+                    </div>
+                    <div  class="divFormulario">
+                        <label class="label" for="Provincia"><h3 class="labelH3">Provincia </h3></label>
+                        <select name="Provincia" id="" class= "input">
+                            <option value="Buenos Aires">Buenos Aires</option>
+                            <option value="CABA">CABA</option>
+                            <option value="Catamarca">Catamarca</option>
+                            <option value="Chaco">Chaco</option>
+                            <option value="Chubut">Chubut</option>
+                            <option value="Cordoba">Cordoba</option>
+                            <option value="Corrientes">Corrientes</option>
+                            <option value="Entre Ríos">Entre Ríos</option>
+                            <option value="Formosa">Formosa</option>
+                            <option value="Jujuy">Jujuy</option>
+                            <option value="La Pampa">La Pampa</option>
+                            <option value="La Rioja">La Rioja</option>
+                            <option value="Mendoza">Mendoza</option>
+                            <option value="Misiones">Misiones</option>
+                            <option value="Neuquen">Neuquen</option>
+                            <option value="Río Negro">Río Negro</option>
+                            <option value="Salta">Salta</option>
+                            <option value="San Juan">San Juan</option>
+                            <option value="San Luis">San Luis</option>
+                            <option value="Santa Cruz">Santa Cruz</option>
+                            <option value="Santa Fe">Santa Fe</option>
+                            <option value="Santiago del Estero">Santiago del Estero</option>
+                            <option value="Tucuman">Tucuman</option>
+                        </select>           
+                    </div>
+                    <div  class="divFormulario" >
+                        <label class="label" for="genero"><h3 class="labelH3">Genero (Opcional) </h3>
+                        </label>
+                    
+                        <input class= "inputRadio"  type="radio" name="genero" value="Hombre">Hombre
+                        <input class= "inputRadio" type="radio" name="genero" value="Mujer">Mujer 
+                        <input class= "inputRadio" type="radio" name="genero" value="No-binario">No-binario
+                    </div>
+                    <div  class="divFormulario">
+                        <label class="label" for="Mensaje"><h3 class="labelH3">Mensaje:</h3></label>
+                        <input class= "textarea" type="text" name="nombre"
+                        placeholder="Ingrese un Mensaje">
+                    </div>
+
+                    <div  class="divFormularioBoton">
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Borrar todo">
+                    </div>
+            </form> 
+<!--termina el form -->            
+        </section> 
+<!--termina la section -->
+        
+    </main>
+<!-- termina el main -->  
+<!-- comienza el footer -->
+<footer>
+    <!-- Información del contacto-->
+            <div class="divfooterContacto">
+                <div class="divDetalleContacto">  
+                    <h4 class="hContacto">CONTACTO</h4>          
+                    <p>+54 11 6929 9999</p>
+                    <p>productos.deco@gmail.com</p>
+                    <p>Sebastián Elcano 888, Acassuso, Buenos Aires</p>
+                </div>
+    
+    <!-- imagenes de las redes-->
+                <div class="divRedes">
+                    <a href="https://www.instagram.com/">
+                        <img src="../img/instagram.png" alt="instagran">
+                    </a>
+                    <a href="http://www.facebook.com">
+                        <img src="../img/Facebook.png" alt="facebook">
+                    </a>
+                    <a href="https://twitter.com/">
+                        <img src="../img/Twitter.png" alt="twitter">
+                    </a>
+                    <a href="https://wa.me/0541168309372">
+                        <img src="../img/WhatsApp.png" alt="WhatsApp">
+                    </a>
+                </div>
+            </div>
+    
+            <div class="divFinalFooter">
+                <h5>Todos los derechos reservados</h5>
+            </div>
+        </footer>
+    <!-- termina el footer -->
+</body>
+</html>
